@@ -1,0 +1,19 @@
+{
+  "name": "ecmascript_historia_versiones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExequielWiedermann/ECMAScript_Historia_Versiones.git"
+  },
+  "author": "Exequiel Wiedermann <ewiedermann@init-dev.com.ar>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ExequielWiedermann/ECMAScript_Historia_Versiones/issues"
+  },
+  "homepage": "https://github.com/ExequielWiedermann/ECMAScript_Historia_Versiones#readme"
+}
