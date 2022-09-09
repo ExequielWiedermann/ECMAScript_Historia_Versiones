@@ -8,3 +8,8 @@ function newUser(name, age, country) {
 
 newUser();
 newUser('Soledad', 34, 'Chile');
+
+//Nueva forma
+function newAdmi(name = 'Exequiel', age = 34, country = 'Chile') {
+    console.log(name, age, country);
+}
