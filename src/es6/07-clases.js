@@ -29,3 +29,19 @@ class user {
 }
 
 const exequiel = new user();
+
+// trabajando con el this, hace referencia
+// al elemento padre que lo contiene
+
+class user {
+    constructor(name) {
+            this.name = name;
+        }
+        //métodos
+    speak() {
+        return 'Hola';
+    }
+    saludo() {
+        return `${this.speak()} ${this.name}`;
+    }
+}
