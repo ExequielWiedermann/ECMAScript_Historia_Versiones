@@ -45,3 +45,6 @@ class user {
         return `${this.speak()} ${this.name}`;
     }
 }
+
+const alguien = new user('Tiziana');
+console.log(alguien.saludo());
