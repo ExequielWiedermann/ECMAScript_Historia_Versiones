@@ -1,5 +1,1 @@
-const hola = () => {
-    console.log('Hola');
-}
-
-export default hola;
+import hola from "./module";
