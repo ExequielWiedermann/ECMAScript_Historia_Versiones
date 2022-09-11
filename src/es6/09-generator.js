@@ -7,3 +7,7 @@ function* iterate(array) {
 
 const it = iterate(['Exequiel', 'Soledad', 'Tiziana', 'Laura', 'Fernando']);
 console.log(it.next().value);
+console.log(it.next().value);
+console.log(it.next().value);
+console.log(it.next().value);
+console.log(it.next().value);
