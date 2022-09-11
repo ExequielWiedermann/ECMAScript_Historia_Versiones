@@ -12,5 +12,15 @@ class user {
 };
 
 const persona = new user();
-
 console.log(persona.saludo());
+
+const otraCosa = new user();
+console.log(persona.saludo());
+
+//Constructor
+class user {
+    //Constructor
+    constructor() {
+        console.log('Nuevo Usuario');
+    }
+}
