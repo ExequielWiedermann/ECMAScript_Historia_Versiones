@@ -9,3 +9,12 @@ other.next().then(response => console.log(response.value));
 other.next().then(response => console.log(response.value));
 other.next().then(response => console.log(response.value));
 console.log('Hola');
+
+async function arrayDeNombres(array) {
+    for await (let value of array) {
+        console.log(value);
+    }
+}
+
+const nombres = arrayDeNombres(['Exequiel', 'Soledad', 'Tiziana', 'Laura']);
+console.log('Después');
