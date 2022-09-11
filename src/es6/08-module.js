@@ -1,1 +1,3 @@
-import hola from "./module";
+import hola from "./module.js";
+
+hola();
