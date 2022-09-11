@@ -23,4 +23,9 @@ class user {
     constructor() {
         console.log('Nuevo Usuario');
     }
+    saludo() {
+        return 'Hola'
+    }
 }
+
+const exequiel = new user();
