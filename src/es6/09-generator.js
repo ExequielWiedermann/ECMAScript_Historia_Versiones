@@ -4,3 +4,6 @@ function* iterate(array) {
         yield value;
     }
 }
+
+const it = iterate(['Exequiel', 'Soledad', 'Tiziana', 'Laura', 'Fernando']);
+console.log(it.next().value);
