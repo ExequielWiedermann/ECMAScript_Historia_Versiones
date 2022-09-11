@@ -13,4 +13,5 @@ const anotherFunction = () => {
 //Entra primero al catch y después al then
 anotherFunction()
     .then(response => console.log(response))
-    .catch(err => console.log(err));
+    .catch(err => console.log(err))
+    .finally(() => console.log('Final'));
