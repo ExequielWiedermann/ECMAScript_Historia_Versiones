@@ -60,6 +60,8 @@ class user {
     }
 
     //Métodos
+    //Con el numeral digo que son privados ahora
+    #
     speak() {
         return 'Hola';
     }
@@ -67,10 +69,10 @@ class user {
         return `${this.speak()} ${this.name}`;
     }
 
-    get uAge() {
+    get# uAge() {
         return this.age;
     }
-    set uAge(n) {
+    set# uAge(n) {
         this.age = n;
     }
 }
