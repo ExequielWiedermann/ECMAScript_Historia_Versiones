@@ -16,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/ExequielWiedermann/ECMAScript_Historia_Versiones/issues"
     },
-    "homepage": "https://github.com/ExequielWiedermann/ECMAScript_Historia_Versiones#readme"
+    "homepage": "https://github.com/ExequielWiedermann/ECMAScript_Historia_Versiones#readme",
+    "dependencies": {
+        "node-fetch": "^3.2.10"
+    }
 }
